@@ -1,0 +1,67 @@
+.home-page .hero {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        url('https://media.istockphoto.com/id/1453081662/photo/bookstore-in-the-city-center-of-lisbon.jpg?b=1&s=170667a&w=0&k=20&c=aNH1MGjtrxi-y1gs9QNbKvnHBm4okB8Q864Oq_DYW6o=');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-page .choose {
+    color: aliceblue;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.test-category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.test-category {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 20px;
+    background: linear-gradient(90deg, #f73859, transparent) #f73859;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.test-category:hover {
+    background: #990c3b;
+    cursor: pointer;
+}
+
+.home-page .tests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding-top: 50px; */
+}
+
+.home-page .test {
+    background: linear-gradient(90deg, #2d1886, transparent) #2d1886;
+    padding: 40px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.home-page .test-physics {
+    background: linear-gradient(90deg, #6d076d, transparent) #6d076d;
+}
+
+.home-page .test-chemistry {
+    background: linear-gradient(90deg, #425107, transparent) #425107;
+}
+
+.home-page .test-english {
+    background: linear-gradient(90deg, #a71a1a, transparent) #a71a1a;
+}
+
+.home-page .test:hover {
+    background-color: #e91e63;
+    color: #fff;
+}
